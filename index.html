@@ -1,0 +1,278 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>リンクラスコア計算</title>
+    <link rel="stylesheet" href="score_calculator.css">
+    <script src="score_calculator.js"></script>
+  </head>
+  <body>
+    <h3>
+        リンクラスコア計算
+    </h3>
+    <p>
+        リハーサルのスコアからグランプリスコアを計算します。
+    </p>
+
+    <table>
+        <tr>
+            <th>
+                歌唱メンバー
+            </th>
+            <th>
+                名前
+            </th>
+            <th>
+                Season Fan Lv.
+            </th>
+            <th>
+                解放Lv.
+            </th>
+            <th>
+                レアリティ
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="kahoCheckBox">
+            </td>
+            <td>
+                日野下 花帆
+            </td>
+            <td>
+                <select id="kahoFanLv">
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                    <option>6</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <!-- <span id="kaho_5">♪</span><span id="kaho_4">♪</span><span id="kaho_3">♪</span><span id="kaho_2">♪</span><span id="kaho_1">♪</span> -->
+                <select id="kahoTotsuLv">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="kahoRarity">
+                    <option>UR</option>
+                    <option>SR</option>
+                    <option>R</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="checkbox" id="sayakaCheckBox">
+            </td>
+            <td>
+                村野 さやか
+            </td>
+            <td>
+                <select id="sayakaFanLv">
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                    <option>6</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="sayakaTotsuLv">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="sayakaRarity">
+                    <option>UR</option>
+                    <option>SR</option>
+                    <option>R</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input type="checkbox" id="rurinoCheckBox">
+            </td>
+            <td>
+                大沢 瑠璃乃
+            </td>
+            <td>
+                <select id="rurinoFanLv">
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                    <option>6</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="rurinoTotsuLv">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="rurinoRarity">
+                    <option>UR</option>
+                    <option>SR</option>
+                    <option>R</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input type="checkbox" id="kozueCheckBox">
+            </td>
+            <td>
+                乙宗 梢
+            </td>
+            <td>
+                <select id="kozueFanLv">
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                    <option>6</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="kozueTotsuLv">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="kozueRarity">
+                    <option>UR</option>
+                    <option>SR</option>
+                    <option>R</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input type="checkbox" id="tsuduriCheckBox">
+            </td>
+            <td>
+                夕霧 綴理
+            </td>
+            <td>
+                <select id="tsuduriFanLv">
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                    <option>6</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="tsuduriTotsuLv">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="tsuduriRarity">
+                    <option>UR</option>
+                    <option>SR</option>
+                    <option>R</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input type="checkbox" id="megumiCheckBox">
+            </td>
+            <td>
+                藤島 慈
+            </td>
+            <td>
+                <select id="megumiFanLv">
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                    <option>6</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="megumiTotsuLv">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+            </td>
+            <td>
+                <select id="megumiRarity">
+                    <option>UR</option>
+                    <option>SR</option>
+                    <option>R</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    
+    <div class="rehearsalScoreDiv">
+        <span>リハーサルスコア：</span>
+        <input type="number" id="rehearsalScore">
+        <input type="button" id="cal" value="計算" onclick="cal()">
+    </div>
+
+    <div id="grandPrixScore"></div>
+  </body>
+</html>
