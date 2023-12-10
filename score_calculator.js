@@ -19,7 +19,7 @@ function cal(){
     
     //Season Fan Lvの倍率計算
     season_fan_lv = 0;
-    season_fan_lv_list = [0,0,20,28,35,43,50,55,60,65,70];
+    season_fan_lv_list = [0,0,20,27.5,35,42.5,50,55,60,65,70];
 
     season_fan_lv += season_fan_lv_list[parseInt(document.getElementById("kahoFanLv").value)];
     season_fan_lv += season_fan_lv_list[parseInt(document.getElementById("sayakaFanLv").value)];
