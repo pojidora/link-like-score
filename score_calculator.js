@@ -38,44 +38,44 @@ function cal(){
 
     if(kaho === true){
         switch(String(document.getElementById("kahoRarity").value)){
-            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("kahoTotsuLv").value)];
-            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("kahoTotsuLv").value)];
-            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("kahoTotsuLv").value)];
+            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("kahoTotsuLv").value)];break;
+            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("kahoTotsuLv").value)];break;
+            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("kahoTotsuLv").value)];break;
         }
     }
     if(sayaka === true){
         switch(String(document.getElementById("sayakaRarity").value)){
-            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("sayakaTotsuLv").value)];
-            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("sayakaTotsuLv").value)];
-            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("sayakaTotsuLv").value)];
+            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("sayakaTotsuLv").value)];break;
+            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("sayakaTotsuLv").value)];break;
+            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("sayakaTotsuLv").value)];break;
         }
     }
     if(rurino === true){
         switch(String(document.getElementById("rurinoRarity").value)){
-            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("rurinoTotsuLv").value)];
-            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("rurinoTotsuLv").value)];
-            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("rurinoTotsuLv").value)];
+            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("rurinoTotsuLv").value)];break;
+            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("rurinoTotsuLv").value)];break;
+            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("rurinoTotsuLv").value)];break;
         }
     }
     if(kozue === true){
         switch(String(document.getElementById("kozueRarity").value)){
-            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("kozueTotsuLv").value)];
-            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("kozueTotsuLv").value)];
-            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("kozueTotsuLv").value)];
+            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("kozueTotsuLv").value)];break;
+            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("kozueTotsuLv").value)];break;
+            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("kozueTotsuLv").value)];break;
         }
     }
     if(tsuduri === true){
         switch(String(document.getElementById("tsuduriRarity").value)){
-            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("tsuduriTotsuLv").value)];
-            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("tsuduriTotsuLv").value)];
-            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("tsuduriTotsuLv").value)];
+            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("tsuduriTotsuLv").value)];break;
+            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("tsuduriTotsuLv").value)];break;
+            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("tsuduriTotsuLv").value)];break;
         }
     }
     if(megumi === true){
         switch(String(document.getElementById("megumiRarity").value)){
-            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("megumiTotsuLv").value)];
-            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("megumiTotsuLv").value)];
-            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("megumiTotsuLv").value)];
+            case "R": totsu_lv += totsu_r[parseInt(document.getElementById("megumiTotsuLv").value)];break;
+            case "SR": totsu_lv += totsu_sr[parseInt(document.getElementById("megumiTotsuLv").value)];break;
+            case "UR": totsu_lv += totsu_ur[parseInt(document.getElementById("megumiTotsuLv").value)];break;
         }
     }
 
